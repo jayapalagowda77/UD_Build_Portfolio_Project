@@ -1,0 +1,93 @@
+body {
+    font-family: "Lato",sans-serif;
+    font-size: 10px;
+}
+
+.logo {
+    padding-top: 40px;
+}
+
+.logo img {
+    max-width: 70px;
+}
+
+.header-text {
+    color: #2d3c49;
+}  
+
+.description-project {
+    color: #2d3c49;
+}
+
+.featured-work {
+    color: #7d97ad;
+    margin-top:1em;
+}
+
+@media (max-width: 48em) {
+
+    .header-text, .logo {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .header-text h1 {
+        font-weight: 100;
+        margin-bottom: 0;
+    }
+
+    .header-text h3 {
+        font-weight: 400;
+        /* margin-bottom: 1.5em; */
+    }
+    
+}
+
+@media (min-width: 48em) {
+    .header-text {
+        text-align: right;
+        margin-top: 4em;
+    }
+    .logo {
+        text-align: left;
+    }
+    .header-text h1 {
+        font-size: 3em;
+        font-weight: 100;
+        margin-bottom: 0;
+    }
+    .header-text h3 {
+        font-weight: 400;
+        margin-bottom: 0.5em;
+    }
+    /* Main image width*/
+    main img, article img {
+        width: 100%;
+    }
+}
+
+hr {
+    border: none;
+    height: 2px;
+    color: #7d97ad; /* old IE */
+    background-color: #7d97ad; /* Modern Browsers */
+    margin-top: 0.2em;
+    margin-bottom: 2.2em;
+}
+
+.text-link {
+    color: #2d3c49;
+    font-size: 16px;
+    padding: 1em;
+    font-weight: 100;
+    text-align: center;
+}
+
+/* Main image width*/
+main img{
+    width: 100%;
+}
+
+article img {
+    width: 100%;
+}
